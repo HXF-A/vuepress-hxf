@@ -1,21 +1,21 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js add markdown-it-katex
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js add @vuepress/core
 
 PATH: 
-  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/nowcoder/.rvm/bin:/Users/nowcoder/.rvm/bin
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/nowcoder/.rvm/bin
 
 Yarn version: 
   1.22.4
 
 Node version: 
-  10.16.2
+  14.17.0
 
 Platform: 
   darwin x64
 
 Trace: 
-  Error: getaddrinfo ENOTFOUND r.npm.sankuai.com r.npm.sankuai.com:80
-      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+  Error: getaddrinfo ENOTFOUND r.npm.sankuai.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
 
 npm manifest: 
   {
@@ -34,6 +34,7 @@ npm manifest:
       "@vssue/api-github-v4": "^1.4.0",
       "@vssue/vuepress-plugin-vssue": "^1.4.6",
       "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.3",
+      "markdown-it-katex": "^2.0.3",
       "vue-class-component": "^7.2.3"
     },
     "description": "HXF博客"

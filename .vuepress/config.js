@@ -135,11 +135,17 @@ module.exports = {
           cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
         },
         {
-          name: '用胳膊当枕头',
-          artist: '최낙타',
-          url: 'https://assets.smallsunnyfox.com/music/3.mp3',
+          name: '一丝不挂',
+          artist: '陈奕迅',
+          url: 'https://sharefs.yun.kugou.com/202010121000/2fb14aa3fe506d1f6be0ec93e5f5b0c7/G093/M06/1F/09/PZQEAFu9rbeAFDhPADoJT_Xlt4o476.mp3',
           cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
-        }
+        },
+        {
+          name: '森林',
+          artist: '陈奕迅',
+          url: 'https://sharefs.yun.kugou.com/202010121001/4eb77d31f1b04bed2dd8378129f53dda/G193/M04/13/0F/oZQEAF5pXXaAfBIBAEsLmSAARnw387.mp3',
+          cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
+        },
       ],
       position : {
         right: "10px",
